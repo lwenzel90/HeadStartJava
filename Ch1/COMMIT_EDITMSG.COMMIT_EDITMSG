@@ -1,0 +1,32 @@
+Created the right sequence for head first java problem
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/Shuffle1.java b/Shuffle1.java
+new file mode 100644
+index 0000000..5d39387
+--- /dev/null
++++ b/Shuffle1.java
+@@ -0,0 +1,19 @@
++class Shuffle1 {
++	public static void main(String[] args){
++		int x = 3;
++		while(x > 0){
++			if(x == 1){
++				System.out.print("d");
++				x = x - 1;
++			}
++			if(x == 2){
++				System.out.print("b c");
++			}
++			if(x > 2){
++				System.out.print("a");
++			}
++			x = x - 1;
++			System.out.print("-");
++		}	
++	}
++}
+\ No newline at end of file
